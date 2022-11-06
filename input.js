@@ -7,6 +7,6 @@ function checkPalindrome(string) {
     }
     return 'It is a palindrome';
 }
-const string = 'sarthak';
+const string = prompt('enter a string');
 const value = checkPalindrome(string);
 console.log(value);
